@@ -1,0 +1,96 @@
+@media screen and (max-width: 1000px) {
+    .paragraph { font-size: 18px; }
+    .wrapper { width: 100%; }
+}
+
+@media screen and (max-width: 900px) {
+    header > p { padding-left: 60px; }
+    .header-image { margin-right: 60px; }
+}
+
+@media screen and (max-width: 795px) {
+    header > p {
+        font-size: 60px;
+        padding-left: 40px;
+    }
+    
+    .paragraph { font-size: 17.5px; }
+    .header-image { padding-right: 40px; }
+}
+
+@media screen and (max-width: 760px) {
+    .social-links { padding: 12px; }
+}
+
+@media screen and (max-width: 725px) {
+    .social-links { display: none; }
+    .nav-main { height: 56px; }
+    .nav-main > ul > li { width: 25%; }
+    .support-image { display: none; }
+    
+    .nav-item, .nav-item-selected-page {
+    	font-size: 1.2em;
+        width: 100%;
+        height: 56px;
+        line-height: 56px;
+        padding: 0;
+    }
+    
+    header > p, .nav-main > ul {
+        float: none;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .grow img:hover {
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header-image { display: none; }
+    .paragraph { font-size: 16.6px; }
+    .the-image { padding: 10px; }
+    .under-poster-item { width: 49.80%; }
+}
+
+@media screen and (max-width: 600px) {
+    .the-image { display: none; }
+	.paragraph { font-size: 15.5px; }
+    .footer-sub-text { font-size: 10px; }
+	.footer-header-text { font-size: 16px; }
+}
+
+@media screen and (max-width: 550px) {
+    .grow img {
+        width: 165px;
+        height: 165px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .grow img:hover {
+        width: 165px;
+        height: 165px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .grow img { display: none; }
+    .paragraph { font-size: 15px; }
+}
+
+@media screen and (max-width: 370px) {
+	.nav-item, .nav-item-selected-page { font-size: 1em; }
+	.under-poster-item {
+		width: 98%;
+		margin: 1%;
+	}
+}
+
+@media screen and (max-width: 300px) {
+    body, html { width: 370px; }
+}
