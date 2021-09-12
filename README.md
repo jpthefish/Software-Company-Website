@@ -1,0 +1,2 @@
+# Software Company Website Template
+<p>HTML/CSS template for a prospective software startup featuring modern aesthetics and visual design, fluid animation, and mobile-friendly layout and functionality.</p>
